@@ -1,0 +1,378 @@
+.My-Logo h1{
+    margin:1px;
+    font-size: 34px;
+}
+
+.My-Logo h1 span:first-of-type{
+   color: #ffd700;
+    padding: 0px 0px;
+    margin-right: -4px;
+}
+.search-bar  input{
+    width: 72%;
+    height: 42px;
+    border-radius: 0;
+    padding: 12px;
+    font-size: 20px;
+    border-right: none;
+    color: #097471;
+    border: 1px solid #ffd700;
+    background-color: #e9e9e9e8;
+}
+.search-btn{
+     height: 42px;
+    border-radius: 0;
+    border: 1px solid #ffd700;
+    padding: 7px;
+    background-color: #FD7C2A;
+    font-size: 20px;
+    margin-left: 0px;
+    margin-bottom: 8px;
+    color: #FFFFFF;
+    width: 3rem;
+    text-align: -webkit-right;
+    
+}
+.search-btn:hover{
+background: #3cc16e;
+cursor: pointer;
+box-shadow: #ffd700;
+}
+.Selected-items{
+    text-align:right;
+}
+.search-bar input:focus{
+    outline: none;
+}
+.My-Header{
+ min-height: 65px;
+}
+.My-line{
+   border-top: 2px solid #461c1c;
+   margin-top: 21px
+}
+.My-list{
+   min-height: 68px;
+   background-color:#FFD700;
+   margin-top: -20px;
+    box-shadow: 1px 1px 1px 1px #ffd700;
+}
+.My-list span{
+    float: right;
+    padding: 24px;
+   cursor: pointer;
+   
+  
+}
+.My-list h4{
+display:inline-block;
+    margin-left: 42px;
+    margin-right: 42px;
+    font-weight: 600;
+    font-size: 19px;
+}
+.category-list ul{
+margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: #031d0d;
+    border: 1px solid #ddd;
+    font-size:large;
+    box-shadow: 1px 1px 1px 1px #050505;
+}
+.category-list ul li{
+ border-bottom: 1px solid #000000;
+    padding: 12px 42px;
+}
+.category-list li a{
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+}
+.My-shop-menu ul{
+    display: flex;
+    padding: 0;
+    margin: 0%;
+    list-style: none;
+
+}
+.items li:hover{
+     background-color:rgb(99, 160, 8);
+}
+.My-shop-menu{
+    display: flex;
+   }
+.left-menu-list{
+        width: 70%;
+   }
+ .right-menu-list{
+     white-space: nowrap;
+       width: 30%;
+       min-width:152px;
+      
+   }
+   .My-shop-menu ul li{
+   padding:12px;
+   min-width:97px;
+   }
+      .My-shop-menu ul li a{
+        text-decoration: none;
+   }
+   ul.right-menu-list{
+     margin-left: 101px
+
+   }
+   .My-shop-menu ul.My-dropdown{
+     display: none;
+     position: absolute;
+     border: 1px solid bisque;
+
+   }
+.My-dropdown-main:hover ul.My-dropdown{
+    display: block;
+    position: relative;
+    list-style-position: inside;
+    border: 1px solid rgb(124, 89, 89);
+    width: fit-content;
+    height:fit-content;
+    margin-top:10px;
+    box-shadow: 1px 1px 1px 1px rgb(226, 195, 195);
+   
+}
+
+.My-dropdown-main a i{
+    margin-left: 1px;
+}
+
+.My-btn span i{
+    margin-left: 2px;
+}
+.My-banner{
+    position: relative;
+    width: 108%;
+    float: left;
+    margin-left: 12px;
+    height: 410px;
+        border: 2px solid #FFD700;
+    border-radius: 4px
+}
+.My-banner img{
+        width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.My-banner-text
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    text-transform: uppercase;
+        background-color: #00000008;
+    margin-top: 105px
+  
+}
+.My-banner-text h3{
+    margin: 0;
+    font-weight: 700;
+    color: #FDFFFF;
+        font-size: 15px;
+}
+.My-banner-text h4{
+    color: #FFFFFF;
+
+}
+
+.discount:hover{
+    color: bisque;
+    cursor: pointer;
+    text-shadow: 2px 0px 6px rgba(246, 255, 59, 0.83);
+    
+}
+.Shop-now{
+         background-color: blueviolet;
+          padding: 11px 15px;
+
+}
+.Shop-now:hover{
+    background-color: rgb(123, 165, 123);
+    cursor: pointer;
+}
+
+.My-banner-text-2
+{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    text-transform: uppercase;
+        background-color: #00000008;
+    margin-top: 105px
+  
+}
+
+ .img-2{
+        width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+.explore{
+    background-color: blueviolet;
+          padding: 11px 15px;
+}
+
+.My-features{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border: 1px solid rgb(255, 215, 0);
+    margin-right: 33px;
+        background-color: #9a892c;
+    font-size: 17px;
+    font-weight: 400;
+    color: floralwhite;
+    border-radius: 36px
+}
+.My-features:hover{
+    background-color: rgb(8, 150, 8);
+       box-shadow: 1px 1px 1px 1px #ffd700;
+     cursor: pointer;
+
+}
+
+.My-features .My-icon-text{
+        padding: 32px;
+    display: flex;
+    
+}
+
+
+.features-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+}
+
+.My-category-img{
+  width: 100%;
+  margin-top: 24px;
+
+}
+.cart-img{
+    margin-right: 30px;
+    margin-top: 0px;
+    padding: 0px;
+}
+
+.My-category-img img{
+        margin-top: 30px;
+    padding: 0;
+    width: 100%;
+    margin-right: 25px;
+    top:-22px;
+
+ margin-top: -50px;
+    object-fit: contain;
+    height: 448px;
+    position: relative;
+}
+.My-category-list{
+        border: 1px solid #e88c8c;
+    width: 100%;
+    border-radius: 14px;
+    image-rendering: -webkit-optimize-contrast;
+     cursor: pointer;
+}
+.category-type{
+    text-align: center;
+    font-size: larger;
+    font-style: oblique;
+    color: #17177f;
+    margin-top: 17px;
+}
+
+.Cout-products{
+  text-align: right;
+    margin-top: 0;
+    margin-right: 26px;
+    position: relative;
+    z-index: 2;
+    color: ghostwhite;
+    font-size: 17px;
+    font-style: revert;
+    top:30px;
+        background-color: aquamarine;
+    width: 17%;
+    padding: 5px;
+    float: right;
+    margin-top: -10px;
+    border: 1px solid #7FFFD4;
+    border-radius: 17px;
+    color: #2e3904;
+    text-align: center;
+    cursor: pointer;
+}  
+.Offer-Slider{
+    background-color: #e88c8c;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.Offer-text{
+
+    font-size: 26px;
+    color: aliceblue;
+    font-weight: bolder;
+    margin-bottom: 12px;
+}
+.Offer-text h3, h5{
+  color: #097471;
+}
+
+.Special-offer{
+   align-items: center;
+
+}
+.w3-black,.w3-hover-black{
+color: #561e1e!important;
+    background-color: #86a1de!important;
+    opacity: 0.6;
+    border-radius: 9px
+}
+.mygrid{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    flex-direction:row;
+    flex-grow:2;
+    flex-shrink: auto;
+    flex-basis: content;
+    flex-wrap:wrap;
+}
+.grid-item{
+    width:auto;
+    display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+  align-items: start;
+  max-width: 100%;
+
+}
+.grid-item .My-left{
+ max-width: 100%;
+border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+}
